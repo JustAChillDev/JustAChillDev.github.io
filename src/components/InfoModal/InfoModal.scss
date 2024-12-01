@@ -11,11 +11,13 @@
     z-index: -1000;
     transition: all 0.5s ease;
     pointer-events: all;
+    display: flex;
+    flex-direction: column;
 }
 
 .info-container {
     width: 50%;
-    height: 50%;
+    height: fit-content;
     font-size: 1rem;
     text-align: center;
 }
