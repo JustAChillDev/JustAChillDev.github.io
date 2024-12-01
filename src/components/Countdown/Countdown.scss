@@ -47,6 +47,23 @@
     width: 100dvw;
 }
 
+.logo {
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+}
+
+.brand-area {
+    display: flex;
+    height: fit-content;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.brand-text {
+    width: 0;
+}
+
 @media screen and (max-width: 600px) {
     .main-content {
         font-size: 2rem;

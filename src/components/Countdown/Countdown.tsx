@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import './Countdown.scss'
+import './Countdown.scss';
+import logo from '../../assets/images/logo.png'
 
 export const Countdown = ({targetDate}:{targetDate: string}) => {
     const calculateTimeLeft = (endDate: string) => {
@@ -27,6 +28,11 @@ export const Countdown = ({targetDate}:{targetDate: string}) => {
 
       return (
         <div className='main-content'>
+
+          {/* <div className='brand-area'>
+            <img src={logo} className='logo'></img>
+            Obsidian
+          </div> */}
         <span className='big-text'>JOURNEY BEGINS IN</span>
         <div className='countdown-container'>
             <div className='box'>
@@ -48,7 +54,6 @@ export const Countdown = ({targetDate}:{targetDate: string}) => {
         </div>
         <p className='small-text'>Hold tight as we prepare to unveil Obsidian, the future of Solana. Follow us on Twitter for updates!</p>
         <p className='medium-text'>#ForgeYourLegacy</p>
-
         </div>
       );
     

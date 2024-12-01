@@ -3,7 +3,7 @@ import './InfoModal.scss'
 export const InfoModal = ({show, setShow}: {show: boolean, setShow:  React.Dispatch<React.SetStateAction<boolean>>}) => {
 
     return (
-        <div className='filter' style={{opacity: show ? '1' : '0'}} onClick={() => {setShow(false)
+        <div className='filter' style={{opacity: show ? '1' : '0', zIndex: show ? '10000' : '-10000'}} onClick={() => {setShow(false)
             console.log('clicked')
         }
         }>
