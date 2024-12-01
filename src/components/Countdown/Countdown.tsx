@@ -47,6 +47,8 @@ export const Countdown = ({targetDate}:{targetDate: string}) => {
             </div>
         </div>
         <p className='small-text'>Hold tight as we prepare to unveil Obsidian, the future of Solana. Follow us on Twitter for updates!</p>
+        <p className='medium-text'>#ForgeYourLegacy</p>
+
         </div>
       );
     
