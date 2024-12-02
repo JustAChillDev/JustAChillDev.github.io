@@ -29,10 +29,7 @@ export const Countdown = ({targetDate}:{targetDate: string}) => {
       return (
         <div className='main-content'>
 
-          {/* <div className='brand-area'>
-            <img src={logo} className='logo'></img>
-            Obsidian
-          </div> */}
+
         <span className='big-text'>JOURNEY BEGINS IN</span>
         <div className='countdown-container'>
             <div className='box'>
@@ -53,6 +50,10 @@ export const Countdown = ({targetDate}:{targetDate: string}) => {
             </div>
         </div>
         <p className='small-text'>Hold tight as we prepare to unveil Obsidian, the future of Solana. Follow us on Twitter for updates!</p>
+        <div className='brand-area'>
+            <img src={logo} className='logo'></img>
+            Obsidian
+          </div>
         <p className='medium-text'>#ForgeYourLegacy</p>
         </div>
       );

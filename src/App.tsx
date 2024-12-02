@@ -8,12 +8,14 @@ import { Footer } from './components/Footer/Footer'
 const App = () => {
 
   const [showInfo, setShowInfo] = useState(false)
+  const [showEarlyAccess, setShowEarlyAccess] = useState(false)
+
 
 
   return (
     <div className={`app-body`}>
-      <Header showInfo={showInfo} setShowInfo={setShowInfo}/>
-      <Content showInfo={showInfo} setShowInfo={setShowInfo}/>
+      <Header showInfo={showInfo} setShowInfo={setShowInfo} showEA={showEarlyAccess} setShowEA={setShowEarlyAccess}/>
+      <Content showInfo={showInfo} setShowInfo={setShowInfo} showEA={showEarlyAccess} setShowEA={setShowEarlyAccess}/>
       <Footer />
     </div>
   )

@@ -48,16 +48,16 @@
 }
 
 .logo {
-    width: 5rem;
-    height: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     margin: auto;
 }
 
 .brand-area {
     display: flex;
     height: fit-content;
-    font-size: 3rem;
-    margin: 0;
+    font-size: 2rem;
+    margin: 2rem 0 0 0;
 }
 
 .brand-text {
@@ -81,5 +81,14 @@
 
     .medium-text {
         font-size: 1.5rem;
+    }
+
+    .brand-area {
+        font-size: 2rem;
+    }
+
+    .logo {
+        width: 3.5rem;
+        height: 3.5rem;
     }
 }

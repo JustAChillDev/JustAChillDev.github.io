@@ -21,3 +21,27 @@
     font-size: 1rem;
     text-align: center;
 }
+
+.form-container {
+    @extend .info-container;
+    border-radius: 1rem;
+    width: fit-content;
+}
+
+.form {
+    border-radius: 1rem;
+    height: 50dvh;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .info-container {
+        font-size: 0.8rem;
+        width: 80%;
+    }
+
+    .form {
+        width: 100%;
+        margin: 0;
+    }
+}
