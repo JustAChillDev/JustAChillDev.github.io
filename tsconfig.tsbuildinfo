@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/content/content.tsx","./src/components/countdown/countdown.tsx","./src/components/footer/footer.tsx","./src/components/header/header.tsx"],"version":"5.6.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/content/content.tsx","./src/components/countdown/countdown.tsx","./src/components/footer/footer.tsx","./src/components/header/header.tsx","./src/components/infomodal/earlyaccessmodal.tsx","./src/components/infomodal/infomodal.tsx"],"version":"5.6.3"}
